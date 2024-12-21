@@ -153,5 +153,14 @@ for( name of names){
 const text = document.querySelector(".title");
 const changecolor = document.querySelector(".changecolor");
 
+text.style.backgroundColor="red";
 
+
+changecolor.addEventListener('click',function(){
+    text.classList.toggle("change");
+})
+
+const userList= document.querySelectorAll(`.name-list li`)
+
+console.log(userList);
 
