@@ -9,7 +9,7 @@ const life=100;
 life=life-60//wont change the output since lfe, we cannot re
 console.log(life);*/
 
-const { Languages } = require("lucide-react");
+/*const { Languages } = require("lucide-react");
 
 const name = "Utkarsh";
 
@@ -113,7 +113,7 @@ console.log(this);
 
 
 
-const user={
+/*const user={
     name:"Utkarsh",
     age:33,
     married:false,
@@ -146,3 +146,12 @@ for( name of names){
         break;
     }
 }
+*/
+
+
+
+const text = document.querySelector(".title");
+const changecolor = document.querySelector(".changecolor");
+
+
+
