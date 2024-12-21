@@ -67,9 +67,82 @@ console.log(typeof xyz);
 >=,<= both of these will have the same meaning as in other Languages
 ||| for or statement*/
 
+Arrays 
+
+const schedule =["wake up","eat","film a video","sleep"];
+
+console.log(schedule);
+
+//indexing is same as normal array
+
+schedule.push("new entry");//value is added at the last index
+
+console.log(schedule);
+
+schedule.pop();//value is removed from the last
+
+
+schedule.shift();
+//removes the first one 
+
+schedule.unshift();
+//remove the last one 
+
+
+schedule.indexOf();
+//gives the index 
+
+
+const user1 ={
+    name:'utkarsh',
+    age: 20,
+    married: false,
+    purchases:["phone","laptop"]
+};
 
 
 
+console.log(user.purchases);
 
 
 
+console.log(this);
+
+
+// outputs all the objects present within the language 
+
+
+
+const user={
+    name:"Utkarsh",
+    age:33,
+    married:false,
+    purchases:['phone','laptop','house'],
+
+
+    sayName: function(){
+        console.log(this.name);
+    }
+};
+
+user.sayName();
+
+
+
+function saymyAge(){
+    console.log(`My age is ${this}`);
+}
+
+
+saymyAge();
+
+const names=["sachin","kohli","dhoni"];
+
+
+for( name of names){
+    console.log(name);
+    if(name === "maria"){
+        console.log("she is not good at all");
+        break;
+    }
+}
