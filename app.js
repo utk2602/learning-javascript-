@@ -9,6 +9,8 @@ const life=100;
 life=life-60//wont change the output since lfe, we cannot re
 console.log(life);*/
 
+const { Languages } = require("lucide-react");
+
 const name = "Utkarsh";
 
 /*function logger(){
@@ -51,5 +53,23 @@ console.log(`hello my name is ${name}`);
 //if we concatenate a string and a number it will take both the values as string only
 
 
-can be verified using 
-console.log(type of xyz);
+//can be verified using 
+console.log(typeof xyz);
+
+
+
+
+
+//if statements 
+  
+
+/*comparison can be done by using //=== 3 equal to signs 
+>=,<= both of these will have the same meaning as in other Languages
+||| for or statement*/
+
+
+
+
+
+
+
