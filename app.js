@@ -164,3 +164,34 @@ const userList= document.querySelectorAll(`.name-list li`)
 
 console.log(userList);
 
+
+
+//ternary operators
+
+
+let age = 21 ; 
+age>=18? "you are gay ":"you are gayy";
+
+
+let pa  =125;
+
+let amt = pa>=100? 10:0;
+
+console.log(`your total is ${pa-amt}`);
+
+
+//switch case is exactly as java 
+
+
+let day = 1;
+
+switch(day){
+    case 1:
+        console.log("It is mon");
+        break;
+    case 2:
+        console.log("It is tues");
+        break;
+    default:
+        console.log("err");
+}
